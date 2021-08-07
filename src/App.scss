@@ -1,0 +1,47 @@
+.App {
+    position: relative;
+    &__wrapper {
+        height: 100%;
+        background-color: white
+    };
+    &__header{
+        width: 100%;
+    }
+    &__wrapper--dark{
+        width:100%;
+        background-color:gray;
+    }
+    &__body{
+        width: 80%;
+        margin-left: 3%;
+        // SelectBox 
+        &-selectbox{
+            width: 100%;
+            display:grid;
+            grid-template-columns: 15% 15% 15% 15% 15%;
+            justify-content: space-between;
+        }
+        // Thevanhoi
+        &-thevanhoi{
+            width: 100%;
+            display: inline-flex;
+            flex-wrap: wrap;
+            &-header{
+                width: 100%;
+                display: inline-flex;
+                img{
+                    width: 30px;
+                }
+            }
+            &-body{
+                width: 100%;
+                display: grid;
+                grid-template-columns:20% 20% 20% 20%;
+                flex-wrap: wrap;
+                
+            }
+        }
+        // Trending
+    }
+    
+}

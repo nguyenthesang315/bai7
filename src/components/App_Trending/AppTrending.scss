@@ -1,0 +1,29 @@
+.Apptrending{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    flex-wrap: wrap;
+    &__img{
+        width: 100%;
+    }
+    &__body{
+        background-color: indigo;
+        &-tittle{
+            h3{
+               margin:0;
+            }
+        }
+        &-infor{
+            display: inline-flex;
+            flex-wrap: wrap;
+            p{
+                margin-right:10px;
+                margin-top:0;
+            }
+        }
+        &-subscribe{
+            p{
+                margin: 5px 0;
+            }
+        }
+    }
+}
